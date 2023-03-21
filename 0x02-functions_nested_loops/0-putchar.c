@@ -1,7 +1,6 @@
 #include <unistd.h>
 #include "main.h"
 
-#include "holberton.h"
 
 /**
  *  * main - Prints Holberton as a message.
