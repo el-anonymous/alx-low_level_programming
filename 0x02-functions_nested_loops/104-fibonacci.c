@@ -1,19 +1,21 @@
 #include <stdio.h>
 
-int main() {
-    int a = 1, b = 2, c;
-    int i;
+int main()
+{
+	int a = 1, b = 2, c;
+   	 int i;
 
-    printf("%d, %d", a, b);
+  	  printf("%d, %d", a, b);
 
-    for (i = 2; i < 98; i++) {
-        c = a + b;
-        printf(", %d", c);
-        a = b;
-        b = c;
-    }
+    	for (i = 2; i < 98; i++) 
+	{
+		c = a + b;
+  		printf(", %d", c);
+		a = b;
+		b = c;
+	}
 
-    printf("\n");
-    return 0;
+	printf("\n");
+	return 0;
 }
 
