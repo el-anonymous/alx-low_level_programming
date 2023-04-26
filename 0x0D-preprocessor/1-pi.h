@@ -1,6 +1,0 @@
-#ifndef MATHCONSTANTS_H
-#define MATHCONSTANTS_H
-
-#define PI 3.14159265359
-
-#endif
